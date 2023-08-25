@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply w-56 h-72 shadow-lg rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl lg:w-64 lg:h-72 xl:w-72 xl:h-72
+}
+
+.recommendations-bg-top{
+    @apply w-full h-3/5 rounded-t-lg bg-cover;
+}
+
+.card-content-secondary{
+    @apply w-full h-2/5 bg-secondary flex items-center flex-col rounded-b-lg py-4 dark:bg-gray-700
+}
+
+.card-content-white{
+    @apply w-full h-2/5 bg-white flex items-center flex-col rounded-b-lg py-4
+}
+
+.card-title-white{
+    @apply text-white font-bold text-lg
+}
+
+.card-title-terciary{
+    @apply text-terciary font-bold text-lg
+}
+
+.card-subtitle-terciary{
+    @apply text-terciary text-lg;
+}
+
+.card-subtitle-white{
+    @apply text-white text-lg;
+}
